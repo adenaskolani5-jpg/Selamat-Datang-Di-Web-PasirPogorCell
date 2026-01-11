@@ -1,4 +1,3 @@
-untuk fitur pencarian harganya sudah berfungsi, tapi saya ingin mengubah tampilannya sperti halnya fitur pencarian
 <!DOCTYPE html>
 <html lang="id">
 <head>
