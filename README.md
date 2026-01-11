@@ -200,7 +200,7 @@ body{
 <div class="flex flex-col items-center">
   <button onclick="openHarga()"
     class="w-24 border border-green-400 text-green-400 text-xs py-2 rounded-md hover:bg-green-400 hover:text-black transition">
-    Harga
+    Cari di sini
   </button>
 </div>
 
