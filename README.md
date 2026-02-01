@@ -809,8 +809,8 @@ const operators = {
     ]
   },
 
-  ByU: {
-    "Paket Internet Bulanan":[
+  byU: {
+    "Paket Internet byU":[
       {nama: "1GB Semua + Bebas Tiktok 500MB / 1 Hari", harga: "Rp 8.000", ket: "Paket ByU harian"},
       {nama: "Kuota 2GB Semua 1 Hari", harga: "Rp 10.000", ket: "Internet cepat sehari"},
       {nama: "2GB Semua + Bebas Tiktok 500MB / 3 Hari", harga: "Rp 12.000", ket: "Bonus TikTok aktif"},
@@ -1031,7 +1031,7 @@ function openPaket(op,cat){
  operators[op][cat].forEach((p,i)=>{
   paketList.innerHTML+=`
   <div class="card">${p.nama} <span class="price">${p.harga}</span>
-  <button class="ket-btn" onclick="toggleKet('${op}${cat}${i}')">?</button></div>
+  <button class="ket-btn" onclick="toggleKet('${op}${cat}${i}')">✉</button></div>
   <div id="${op}${cat}${i}" class="ket-box">${p.ket}</div>`;
  });
 }
